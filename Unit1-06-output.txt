@@ -1,8 +1,8 @@
-﻿55
-No integers were found on this line.
+55
+Invalid: found an empty line.
 -1
 30
 0
-Error: Hello, World! is not a number
-Error: Bob is not a number
+Invalid: "Hello," is not a valid integer.
+Invalid: "Bob" is not a valid integer.
 64

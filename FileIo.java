@@ -32,6 +32,8 @@ public final class FileIo {
         try {
             // A file to get input.
             final File input = new File("Unit1-06-input.txt");
+
+            
             final Scanner scanner = new Scanner(input);
             // A file to get output.
             final FileWriter output = new FileWriter("Unit1-06-output.txt");
@@ -64,7 +66,7 @@ public final class FileIo {
                         // an error has occurred.
                         break;
                     }
-                    // Add to the counter by one.
+                    // Add to counter by one.
                     counter++;
                 }
                 // If an error has not occurred.
